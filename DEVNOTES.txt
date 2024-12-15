@@ -1,0 +1,9 @@
+DEV SHIT I NEED TO USE OVER AND OVER AGAIN 
+
+cd /d E:\LonelyStars\LSAPP
+
+mongodb+srv://lonelystars:kdLj0RJD9i9XspDq@lonelystars.qkx9h.mongodb.net/?retryWrites=true&w=majority&appName=lonelystars
+
+node server.js
+
+npm update

@@ -1,0 +1,3 @@
+E:\LonelyStars\LSAPP\obj\Debug\LSAPP.njsproj.AssemblyReference.cache
+E:\LonelyStars\LSAPP\obj\Debug\LSAPP.njsproj.CoreCompileInputs.cache
+E:\LonelyStars\LSAPP\bin\Microsoft.NodejsTools.WebRole.dll
