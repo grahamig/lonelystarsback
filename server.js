@@ -33,8 +33,13 @@ mongoose
 app.use('/api/auth', authRoutes);
 app.use('/api/profile', profileRoutes);
 
-// Test Route for JWT
-app.get('/api/test', auth, (req, res) => {
+// Test Route (without authentication) for checking the server
+app.get('/api/test', (req, res) => {
+    res.json({ message: 'Hello from back-end!' });
+});
+
+// Test Route for JWT (protected by auth middleware)
+app.get('/api/test-auth', auth, (req, res) => {
     res.json({ msg: 'Token is valid!' });
 });
 
