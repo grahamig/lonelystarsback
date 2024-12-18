@@ -1,0 +1,12 @@
+{
+  "builds": [
+    {
+      "src": "server.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "MONGO_URI": "@your-mongo-uri",
+    "JWT_SECRET": "@your-jwt-secret"
+  }
+}
